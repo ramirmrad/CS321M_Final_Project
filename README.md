@@ -72,7 +72,7 @@ This stage generates the `.npz` logit caches by running forward passes through t
 
 **Steps:**
 1. Log in to HuggingFace: `huggingface-cli login`
-2. Open `Untitled2.ipynb`
+2. Open `code_submission.ipynb`
 3. In **§ 1 (Configuration)**, set `RUN_LOGIT_COLLECTION = True`
 4. Run all cells in order
 
@@ -83,7 +83,7 @@ Logit collection writes `.npz` files to `cache/logits/`. Expected runtime: **~2�
 This stage replays the saved logits, runs all decoding simulations, and regenerates all CSVs and figures.
 
 **Steps:**
-1. Open `Untitled2.ipynb`
+1. Open `code_submission.ipynb`
 2. Ensure `RUN_LOGIT_COLLECTION = False` in **§ 1** (this is the default)
 3. Run all cells in order from top to bottom
 
