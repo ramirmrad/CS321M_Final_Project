@@ -10,7 +10,7 @@ This repository contains all code, pre-collected logit caches, result CSVs, and 
 
 ```
 .
-├── Untitled2.ipynb          # Main analysis notebook (end-to-end reproduction)
+├── code_submission.ipynb          # Main analysis notebook (end-to-end reproduction)
 ├── writeup.tex              # LaTeX source for the final manuscript
 ├── proposal.tex             # LaTeX source for the pre-analysis plan
 ├── results/                 # All output CSVs and figures (pre-computed)
